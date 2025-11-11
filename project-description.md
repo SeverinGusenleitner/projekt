@@ -4,7 +4,7 @@
 ## **1. Project Title**
 
 * Give your website a clear and creative title.
-    - affordable-cars
+    - Cost-of-mobilty
 ---
 
 ## **2. Project Idea**
@@ -12,10 +12,9 @@
 * Describe what your website is about.
 
   * What content will it include? 
-    - best starter vehicle from chosen brand
+    - comparison between different ways to travel
   * Why is this topic interesting or useful? 
-    - useful for students who dont have alot of money
-
+    - interesting for people who want to know the fastest/cheapest/best for the economy traveling method
 ---
 
 ## **3. Target Audience**
@@ -23,12 +22,11 @@
 * Who do you want to visit and use your website?
 
   * Describe your main **target audience** (age group, interests, needs).
-    - age: 17-20 years old (people who just got their drives license)
-    - needs: cheap car of a specific brand
+    - age: 14-20 
+    - needs: knowing cheapest/fastest routes
 
   * Why will your website be interesting or helpful for them?
-    - because the website doesnt just give them the cheapest car, but they can also select the brand and stuff
-
+    - because you can see best for enviroment and cheapest 
 ---
 
 ## **4. Structure of the Website**
@@ -38,8 +36,10 @@
   *Example:*
 
   * `index.html` → Home page
-  * `bmw.html` → bmw page
-  * `ford.html` → ford page
+  * `far.html` → far travel page
+  * `mid.html` → mid travel page
+  * `near.html` → near travel page
+  * `ÖBB.html` → ÖBB travel page
   * ...
 ---
 
@@ -68,7 +68,7 @@
 
   * **Week 1:** Planning and creating the structure
   * **Week 2:** Building index.html and sidebar Styling with CSS
-  * **Week 3:** building subpages for each car brand with about and stuff
+  * **Week 3:** building subpages for each travel method with about and stuff
   * **Week 4:** Testing and final presentation
 
 ---
