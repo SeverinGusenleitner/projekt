@@ -4,7 +4,7 @@
 ## **1. Project Title**
 
 * Give your website a clear and creative title.
-    - matura-cars
+    - affordable-cars
 ---
 
 ## **2. Project Idea**
