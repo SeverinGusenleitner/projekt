@@ -10,11 +10,7 @@ body{
     display:flex;
     justify-content: center;
 }
-h1{
-    text-align: center;
-}
 .item {
-background: #ffffff;
 padding: 20px;
 text-align: center;
 border-radius: 10px;
@@ -33,4 +29,7 @@ a {
 text-decoration: none;
 color: #333;
 font-weight: bold;
+}
+#title{
+    text-align:center;
 }
