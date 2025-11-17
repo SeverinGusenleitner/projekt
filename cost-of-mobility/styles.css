@@ -5,7 +5,9 @@ margin: 40px auto;
 }
 body{
     font-family:arial,sans-serif;
+    
 }
+
 .row{
     display:flex;
     justify-content: center;
@@ -20,7 +22,7 @@ transition: 0.2s;
 
 
 .item:hover {
-background: #e0e0e0;
+background: #ffffff;
 transform: scale(1.03);
 }
 
