@@ -16,11 +16,11 @@ body {
 #text {
     position: sticky;
     top: 0;
-    z-index: 0;   /* WICHTIG: kleiner als the others */
+    z-index: 0;
 }
 
 #othersites {
-    background-color: lightblue;      /* ← WICHTIG: Hintergrund hinzufügen */
+    background-color: lightblue;
     position: relative;
     z-index: 1;
 }
@@ -29,8 +29,15 @@ body {
     justify-content: center;
     gap: 20px;
 }
-
-/* Der Link wird wie ein Block behandelt */
+.navigationbar{
+    text-decoration:none;
+    color:white;
+    font-size:2rem;
+    position:sticky;
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(0, 0, 81);
+}
 .item-link {
     display: block;
     text-decoration: none;
@@ -48,17 +55,20 @@ body {
 .item:hover {
     background: #ffffff;
     transform: scale(1.03);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
-/* Falls du Back-Buttons hast */
-.back {
-    padding: 5px;
-}
+
 
 .back:hover {
-    border-radius: 15%;
-    background: #e0e0e0;
-    transform: scale(1.03);
+    color:yellow;
+}
+.back{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    margin:0;   
 }
