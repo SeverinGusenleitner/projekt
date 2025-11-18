@@ -1,56 +1,64 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: lightblue;
+}
+
 .container {
-gap: 20px;
-max-width: 600px;
-margin: 40px auto;
-}
-body{
-    font-family:arial,sans-serif;
-}
-#text{
-    position:sticky;
-    top:0;
-      z-index: 1;
-
-}
-#othersite{
-    position:relative;
-background: lightblue;
-  z-index: 2;
-
+    gap: 20px;
+    max-width: 600px;
+    margin: 40px auto;
 }
 
-.row{
-    display:flex;
+#title {
+    text-align: center;
+}
+
+#text {
+    position: sticky;
+    top: 0;
+    z-index: 0;   /* WICHTIG: kleiner als the others */
+}
+
+#othersites {
+    background-color: lightblue;      /* ← WICHTIG: Hintergrund hinzufügen */
+    position: relative;
+    z-index: 1;
+}
+.row {
+    display: flex;
     justify-content: center;
-}
-.item {
-padding: 20px;
-text-align: center;
-border-radius: 10px;
-font-size: 1.2rem;
-transition: 0.2s;
+    gap: 20px;
 }
 
+/* Der Link wird wie ein Block behandelt */
+.item-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.item {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
 
 .item:hover {
-background: #ffffff;
-transform: scale(1.03);
+    background: #ffffff;
+    transform: scale(1.03);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+
 }
 
+/* Falls du Back-Buttons hast */
+.back {
+    padding: 5px;
+}
 
-a {
-text-decoration: none;
-color: #333;
-font-weight: bold;
-}
-#title{
-    text-align:center;
-}
-.back{
-    padding:5px;
-}
-.back:hover{
-    border-radius:15%;
+.back:hover {
+    border-radius: 15%;
     background: #e0e0e0;
-transform: scale(1.03);
+    transform: scale(1.03);
 }
