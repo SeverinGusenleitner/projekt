@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Seite-1" id="TGrkvOtwWneGgct6xoGY">
+    <mxGraphModel dx="925" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b0yuc3wD3lEVE94Wn67y-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-30" width="330" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="b0yuc3wD3lEVE94Wn67y-3" value="About us" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="440" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="b0yuc3wD3lEVE94Wn67y-4" value="cost of mobility" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b0yuc3wD3lEVE94Wn67y-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="60" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-1" value="distance" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-3" value="time" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-4" value="price" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="120" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-9" value="Airlines" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-11" value="Bike" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-13" value="Walk" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-15" value="Motorized-Vehicles" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzEXO3eZYhn_UH489TAj-17" value="Train" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

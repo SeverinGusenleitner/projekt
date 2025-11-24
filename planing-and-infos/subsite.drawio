@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Seite-1" id="WmPViOYkcq2fAisHtXUF">
+    <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="360" width="330" x="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="330" x="280" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-4" parent="1" style="triangle;whiteSpace=wrap;html=1;rotation=-180;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="290" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Bike&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Car" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Train" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Walk" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="320" width="180" x="350" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-vkYHKig2pk_gZ_3N4vM-12" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="350" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
