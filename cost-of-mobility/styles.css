@@ -43,17 +43,6 @@ font-family: arial, sans-serif;
     justify-content: center;
     gap: 20px;
 }
-.navigationbar{
-    padding-bottom:5px;
-    text-decoration:none;
-    color:white;
-    font-size:2rem;
-    position:sticky;
-    top:0;
-    display:flex;
-    justify-content: space-between;
-    background-color:rgb(0, 0, 81);
-}
 .item-link {
     display: block;
     text-decoration: none;
@@ -78,16 +67,11 @@ font-family: arial, sans-serif;
 
 
 
-.back:hover {
-    color:yellow;
-}
-.back{
-    color:white;
-    margin-left:5px;
-}
-a{
-    text-decoration: none;
-}
+
+
+
+
+
 html,body{
     margin:0;   
 }
