@@ -1,6 +1,7 @@
 body {
 font-family: arial, sans-serif;
-background-color:#f5f5f5}
+  background: linear-gradient(180deg,  #f5f5f5,#b3b3b3);
+}
 
 .container {
     gap: 20px;
