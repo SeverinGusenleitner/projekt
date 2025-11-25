@@ -1,7 +1,6 @@
 body {
-    font-family: arial, sans-serif;
-    background-color: lightblue;
-}
+font-family: arial, sans-serif;
+background-color:#f5f5f5}
 
 .container {
     gap: 20px;
@@ -11,7 +10,12 @@ body {
 
 #title {
     text-align: center;
+    color:white;
+    background: rgb(0, 0, 81);
+    margin-top:0px;
+    padding-bottom:20px;
 }
+
 
 #text {
     position: sticky;
@@ -20,9 +24,12 @@ body {
 }
 
 #othersites {
-    background-color: lightblue;
+  background: #ffffff;
     position: relative;
+    padding:20px;
+    border-radius:20px;
     z-index: 1;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 .row {
     display: flex;
@@ -52,10 +59,12 @@ body {
     border-radius: 10px;
     font-size: 1.2rem;
     transition: 0.2s;
+    color:white;
 }
 
 .item:hover {
     background: #ffffff;
+    color:black;
     transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
