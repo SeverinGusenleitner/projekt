@@ -91,3 +91,10 @@ a{
 html,body{
     margin:0;   
 }
+.item img {
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: translateY(-5px) rotate(-1deg);
+}
