@@ -48,6 +48,10 @@ ul, ol {
 a:not(.back){
   padding-left:20px;
   padding-right:20px;
+  transition:0.3s;
+}
+a:not(.back):hover{
+  transform:scale(1.12);
 }
 .back:hover {
     color:yellow;
