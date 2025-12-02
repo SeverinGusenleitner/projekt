@@ -90,7 +90,7 @@ html,body{
 #startBtn{
     color:rgb(0, 0, 0);
     background-color:#ffffff;
-    border:none;
+    border:2px solid rgb(0, 0, 81);
     border-radius:5px;
       cursor: pointer;
     transition: 0.2s;
