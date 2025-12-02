@@ -51,6 +51,8 @@ a:not(.back,.currentSite){
   transition:0.3s;
 }
 .currentSite{
+    padding-left:20px;
+  padding-right:20px;
   cursor:default;
 }
 a:not(.back,.currentSite):hover{
