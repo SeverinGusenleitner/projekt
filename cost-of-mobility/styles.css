@@ -103,3 +103,6 @@ html,body{
 
     background-color:rgb(0, 0, 81);
 }
+input{
+    cursor:pointer;
+}
