@@ -17,12 +17,16 @@ font-family: arial, sans-serif;
     padding-bottom:20px;
     padding-top:20px;
 }
-
+label{
+    display:flex;
+    justify-content: center;
+}
 
 #controls {
     position: sticky;
     display:flex;
     justify-content:center;
+    gap:20px;
     top: 0;
     z-index: 0;
     background: #ffffff;
