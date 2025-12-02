@@ -21,6 +21,8 @@ font-family: arial, sans-serif;
 
 #controls {
     position: sticky;
+    display:flex;
+    justify-content:center;
     top: 0;
     z-index: 0;
     background: #ffffff;
