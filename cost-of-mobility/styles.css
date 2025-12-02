@@ -99,8 +99,10 @@ html,body{
 input{
     cursor:pointer;
 }
-
-#aboutUs {
-    background-color: #8d8d8d;
-
-}   
+footer{
+    background-color: #b3b3b3;
+    text-align:left;
+    padding-left:50px;
+    padding-top:20px;
+    padding-right:50px;
+}
