@@ -36,7 +36,7 @@ label{
     margin-top:20px;
 }
 
-#othersites {
+#other-sites {
   background: #ffffff;
     position: relative;
     border-radius:20px;
@@ -80,7 +80,7 @@ html,body{
 .item:hover img {
   transform: translateY(-5px) rotate(-1deg);
 }
-#startBtn{
+#start-btn{
     color:rgb(0, 0, 0);
     background-color:#ffffff;
     border:2px solid rgb(0, 0, 81);
@@ -89,7 +89,7 @@ html,body{
     transition: 0.2s;
     
 }
-#startBtn:hover{
+#start-btn:hover{
     color:white;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     transform: scale(1.03);
