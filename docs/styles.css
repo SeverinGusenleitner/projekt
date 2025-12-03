@@ -23,12 +23,9 @@ label{
 }
 
 #controls {
-    position: sticky;
     display:flex;
     justify-content:center;
     gap:20px;
-    top: 0;
-    z-index: 0;
     background: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     border-radius:20px;
@@ -37,10 +34,9 @@ label{
 }
 
 #other-sites {
-  background: #ffffff;
+    background: #ffffff;
     position: relative;
     border-radius:20px;
-    z-index: 1;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 .row {
