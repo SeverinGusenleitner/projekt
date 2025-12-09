@@ -56,19 +56,10 @@ a:not(.back,.currentSite){
   padding-right:20px;
   cursor:default;
 }
-a:not(.back,.currentSite):hover{
+a:not(.currentSite):hover{
   transform:scale(1.12);
 }
-.back:hover {
-    color:yellow;
-    transform: scale(1.12);
-    
-}
-.back{
-    color:white;
-    transition:0.3s;
-    margin-left:5px;
-}
+
 .navigationbar{
     padding-bottom:5px;
     text-decoration:none;
