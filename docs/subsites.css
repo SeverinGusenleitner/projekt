@@ -19,6 +19,7 @@ main {
 
 h1 {
   font-size: 2.6rem;
+  text-align:center;
   margin-bottom: 1rem;
 }
 
@@ -81,4 +82,37 @@ a:not(.back,.currentSite):hover{
 }
 a{
     text-decoration: none;
+}
+.pros-cons {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    font-size: 1.1rem;
+}
+
+/* Header */
+.pros-cons thead {
+    background: rgb(0, 0, 81);
+    color: white;
+}
+
+.pros-cons th {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table Body */
+.pros-cons td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Remove bottom border on last row */
+.pros-cons tbody tr:last-child td {
+    border-bottom: none;
 }
