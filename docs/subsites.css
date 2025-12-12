@@ -110,3 +110,35 @@ a{
 .pros-cons tbody tr:last-child td {
     border-bottom: none;
 }
+
+.travel-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 30px 0;
+
+  background: #ffffff;
+  padding: 18px 22px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.step {
+  padding: 10px 20px;
+  background: rgb(0, 0, 81);
+  color: white;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.25s;
+}
+
+
+
+.arrow {
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
