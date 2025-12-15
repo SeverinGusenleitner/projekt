@@ -181,3 +181,42 @@ a{
 .airline-links a:hover span {
   color: #ddd;
 }
+.train-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 25px;
+}
+
+.train-links a {
+  background: #f9f9f9;
+  border: 2px solid #eee;
+  padding: 16px 18px;
+  border-radius: 14px;
+
+  color: rgb(0, 0, 81);
+  font-weight: 600;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  transition: 0.25s ease;
+}
+
+.train-links a span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.train-links a:hover {
+  background: rgb(0, 0, 81);
+  color: white;
+  transform: translateY(-4px);
+}
+
+.train-links a:hover span {
+  color: #ddd;
+}
