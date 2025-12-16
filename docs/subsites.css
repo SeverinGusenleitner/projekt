@@ -19,7 +19,7 @@ main {
 
 h1 {
   font-size: 2.6rem;
-  text-align:center;
+  text-align: center;
   margin-bottom: 1rem;
 }
 
@@ -27,14 +27,14 @@ h2 {
   font-size: 1.9rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  padding-bottom: .3rem;
+  padding-bottom: 0.3rem;
   border-bottom: 2px solid #eee;
 }
 
 h3 {
   font-size: 1.4rem;
   margin-top: 1.8rem;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 p {
@@ -42,73 +42,73 @@ p {
   color: #444;
 }
 
-
-ul, ol {
+ul,
+ol {
   margin: 1.2rem 0 1.2rem 2rem;
 }
-a:not(.currentSite){
-  padding-left:20px;
-  padding-right:20px;
-  transition:0.3s;
+a:not(.currentSite) {
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s;
 }
-.currentSite{
-  padding-left:20px;
-  padding-right:20px;
-  cursor:default;
+.currentSite {
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: default;
 }
-a:not(.currentSite):hover{
-  transform:scale(1.12);
+a:not(.currentSite):hover {
+  transform: scale(1.12);
 }
 
-.navigationbar{
-    padding-left:50px;
-    padding-right:50px;
-    padding-bottom:5px;
-    text-decoration:none;
-    color:white;
-    font-size:2rem;
-    position:sticky;
-    top:0;
-    display:flex;
-    justify-content: space-between;
-    background-color:rgb(0, 0, 81);
+.navigationbar {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 81);
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 .pros-cons {
-    width: 100%;
-    border-collapse: collapse;
-    background: #ffffff;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 30px auto;
-    text-align:center;
-    font-size: 1.1rem;
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 /* Header */
 .pros-cons thead {
-    background: rgb(0, 0, 81);
-    color: white;
+  background: rgb(0, 0, 81);
+  color: white;
 }
 
 .pros-cons th {
-    padding: 15px;
-    text-align: center;
-    font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* Table Body */
 .pros-cons td {
-    padding: 15px 20px;
-    border-bottom: 1px solid #e0e0e0;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 /* Remove bottom border on last row */
 .pros-cons tbody tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .travel-flow {
@@ -134,8 +134,6 @@ a{
   white-space: nowrap;
   transition: 0.25s;
 }
-
-
 
 .arrow {
   font-size: 22px;
@@ -220,8 +218,9 @@ a{
 .train-links a:hover span {
   color: #ddd;
 }
-.con{
+.con {
   background-color: rgba(255, 77, 79, 0.12);
-}.pro{
-  background-color:rgba(52, 199, 89, 0.12);
+}
+.pro {
+  background-color: rgba(52, 199, 89, 0.12);
 }
