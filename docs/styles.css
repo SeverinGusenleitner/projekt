@@ -34,12 +34,20 @@ label{
 }
 
 #other-sites {
-    background: #ffffff;
-    border-radius:20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, 300px);
+        place-content: center;
+
+    gap: 20px;
+
+    width: 100%;             
+    padding: 20px;
+
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
+
 
 
 
@@ -48,7 +56,6 @@ label{
     display: block;
     text-decoration: none;
     color: inherit;
-        width: 300px;
 
 }
 
