@@ -220,3 +220,8 @@ a{
 .train-links a:hover span {
   color: #ddd;
 }
+.con{
+  background-color: rgba(255, 77, 79, 0.12);
+}.pro{
+  background-color:rgba(52, 199, 89, 0.12);
+}
