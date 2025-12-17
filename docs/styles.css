@@ -9,11 +9,13 @@
 /* Hover effect for cards */
 .card-link .card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  color:white;
 }
 
 .card-link:hover .card {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  color:black;
 }
 
 /* Optional: pointer cursor for links */
