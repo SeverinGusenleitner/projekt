@@ -1,0 +1,13 @@
+/* Target all airline cards in the links to other sites section */
+.card.shadow-sm.p-3.text-center.text-decoration-none {
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  cursor: pointer;
+}
+
+/* Hover effect: lift & shadow */
+.card.shadow-sm.p-3.text-center.text-decoration-none:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #007bff;
+  color:white;
+}
