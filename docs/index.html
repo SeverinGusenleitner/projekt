@@ -1,128 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-  <!-- Your custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
 
-  <title>Travel Helper</title>
-</head>
+    <title>Travel Helper</title>
+  </head>
 
-<body class="bg-light">
-
-  <!-- Title -->
-  <div class="container text-center my-5">
-    <h1 class="fw-bold">Travel Helper</h1>
-  </div>
-
-  <!-- Main Content -->
-  <div class="container">
-
-    <!-- Transport Options -->
-    <div class="d-flex flex-wrap justify-content-center gap-4 mb-5">
-
-      <a href="./subsites/airlines.html" class="card-link d-block">
-        <div class="card h-100 shadow-sm">
-          <img src="images/airplane.png" class="card-img-top" alt="airplane">
-          <div class="card-body text-center">
-            <h5 class="card-title">Airplane</h5>
-          </div>
-        </div>
-      </a>
-
-      <a href="./subsites/bike.html" class="card-link d-block">
-        <div class="card h-100 shadow-sm">
-          <img src="images/bike.png" class="card-img-top" alt="bike">
-          <div class="card-body text-center">
-            <h5 class="card-title">Bike</h5>
-          </div>
-        </div>
-      </a>
-
-      <a href="./subsites/walk.html" class="card-link d-block">
-        <div class="card h-100 shadow-sm">
-          <img src="images/boot.png" class="card-img-top" alt="walk">
-          <div class="card-body text-center">
-            <h5 class="card-title">Walk</h5>
-          </div>
-        </div>
-      </a>
-
-      <a href="./subsites/train.html" class="card-link d-block">
-        <div class="card h-100 shadow-sm">
-          <img src="images/train.png" class="card-img-top" alt="train">
-          <div class="card-body text-center">
-            <h5 class="card-title">Train</h5>
-          </div>
-        </div>
-      </a>
-
-      <a href="./subsites/motorized-vehicles.html" class="card-link d-block">
-        <div class="card h-100 shadow-sm">
-          <img src="images/car.png" class="card-img-top" alt="car">
-          <div class="card-body text-center">
-            <h5 class="card-title">Car</h5>
-          </div>
-        </div>
-      </a>
-
+  <body class="bg-light">
+    <!-- Title -->
+    <div class="container text-center my-5">
+      <h1 class="fw-bold">Travel Helper</h1>
     </div>
 
-    <!-- Controls -->
-    <div class="card shadow p-4 mb-5">
-      <div class="row g-4">
-
-        <div class="col-md-4">
-          <label for="money-input" class="form-label fw-semibold">Money</label>
-          <input type="range" class="form-range" id="money-input" min="0" max="100" step="50" value="50">
-        </div>
-
-        <div class="col-md-4">
-          <label for="distance-input" class="form-label fw-semibold">Distance</label>
-          <input type="range" class="form-range" id="distance-input" min="0" max="100" step="50" value="50">
-        </div>
-
-        <div class="col-md-4">
-          <label for="time-input" class="form-label fw-semibold">Time</label>
-          <input type="range" class="form-range" id="time-input" min="0" max="100" step="50" value="50">
-        </div>
-
-      </div>
-
-      <div class="text-center mt-4">
-        <button class="btn btn-primary btn-lg px-5">Start</button>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-light py-5">
+    <!-- Main Content -->
     <div class="container">
-      <h3>About Us</h3>
-      <p>
-        We are a two-person team from HTL Leonding in Upper Austria. This
-        website was created as a school project, where we combine what we learn
-        with real-world practice.
-      </p>
+      <!-- Transport Options -->
+      <div class="d-flex flex-wrap justify-content-center gap-4 mb-5">
+        <a href="./subsites/airlines.html" class="card-link d-block">
+          <div class="card h-100 shadow-sm">
+            <img
+              src="images/airplane.png"
+              class="card-img-top"
+              alt="airplane"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Airplane</h5>
+            </div>
+          </div>
+        </a>
 
-      <h3>Image Credits</h3>
-      <p>
-        All images on this website were created using AI-based image generation
-        tools specifically for this school project.
-      </p>
+        <a href="./subsites/bike.html" class="card-link d-block">
+          <div class="card h-100 shadow-sm">
+            <img src="images/bike.png" class="card-img-top" alt="bike" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Bike</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="./subsites/walk.html" class="card-link d-block">
+          <div class="card h-100 shadow-sm">
+            <img src="images/boot.png" class="card-img-top" alt="walk" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Walk</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="./subsites/train.html" class="card-link d-block">
+          <div class="card h-100 shadow-sm">
+            <img src="images/train.png" class="card-img-top" alt="train" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Train</h5>
+            </div>
+          </div>
+        </a>
+
+        <a href="./subsites/motorized-vehicles.html" class="card-link d-block">
+          <div class="card h-100 shadow-sm">
+            <img src="images/car.png" class="card-img-top" alt="car" />
+            <div class="card-body text-center">
+              <h5 class="card-title">Car</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Controls -->
+      <div class="card shadow p-4 mb-5">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <label for="money-input" class="form-label fw-semibold"
+              >Money</label
+            >
+            <input
+              type="range"
+              class="form-range"
+              id="money-input"
+              min="0"
+              max="100"
+              step="50"
+              value="50"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <label for="distance-input" class="form-label fw-semibold"
+              >Distance</label
+            >
+            <input
+              type="range"
+              class="form-range"
+              id="distance-input"
+              min="0"
+              max="100"
+              step="50"
+              value="50"
+            />
+          </div>
+
+          <div class="col-md-4">
+            <label for="time-input" class="form-label fw-semibold">Time</label>
+            <input
+              type="range"
+              class="form-range"
+              id="time-input"
+              min="0"
+              max="100"
+              step="50"
+              value="50"
+            />
+          </div>
+        </div>
+
+        <div class="text-center mt-4">
+          <button class="btn btn-primary btn-lg px-5">Start</button>
+        </div>
+      </div>
     </div>
-  </footer>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+      <div class="container">
+        <h3>About Us</h3>
+        <p>
+          We are a two-person team from HTL Leonding in Upper Austria. This
+          website was created as a school project, where we combine what we
+          learn with real-world practice.
+        </p>
 
-</body>
+        <h3>Image Credits</h3>
+        <p>
+          All images on this website were created using AI-based image
+          generation tools specifically for this school project.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
