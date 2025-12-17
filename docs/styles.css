@@ -1,110 +1,26 @@
-body {
-  font-family: arial, sans-serif;
-  background: #f5f5f5;
-}
-
-.container {
-  gap: 20px;
-  max-width: 1000px;
-  margin: 40px auto;
-}
-
-#title {
-  text-align: center;
-  color: white;
-  background: rgb(0, 0, 81);
-  margin-top: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-label {
-  display: flex;
-  justify-content: center;
-}
-
-#controls {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 135px);
-  justify-content: center;
-  gap: 20px;
-  background: #ffffff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-#other-sites {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
-  place-content: center;
-
-  gap: 20px;
-
-  width: 100%;
-  padding: 20px;
-
-  background: #ffffff;
-  border-radius: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-}
-
-.item-link {
+/* Make all links fixed width and block-level */
+.card-link {
   display: block;
-  text-decoration: none;
-  color: inherit;
+  width: 300px;       /* fixed width */
+  max-width: 100%;    /* responsive: won’t exceed container */
+  text-decoration:none;
 }
 
-.item {
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  transition: 0.2s;
-  color: white;
+/* Hover effect for cards */
+.card-link .card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.item:hover {
-  background: #ffffff;
-  color: black;
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+.card-link:hover .card {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
-html,
-body {
-  margin: 0;
-}
-.item img {
-  transition: transform 0.3s ease;
-}
-
-.item:hover img {
-  transform: translateY(-5px) rotate(-1deg);
-}
-#start-btn {
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  border: 2px solid rgb(0, 0, 81);
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-#start-btn:hover {
-  color: white;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-  transform: scale(1.03);
-
-  background-color: rgb(0, 0, 81);
-}
-input {
+/* Optional: pointer cursor for links */
+.card-link {
   cursor: pointer;
 }
-footer {
-  background-color: #b3b3b3;
-  text-align: left;
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-right: 50px;
-  padding-bottom: 5px;
+label{
+    display:flex;
+    justify-content:center;
 }
