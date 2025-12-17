@@ -1,28 +1,62 @@
 /* Make all links fixed width and block-level */
 .card-link {
   display: block;
-  width: 300px;       /* fixed width */
-  max-width: 100%;    /* responsive: won’t exceed container */
-  text-decoration:none;
+  width: 300px; /* fixed width */
+  max-width: 100%; /* responsive: won’t exceed container */
+  text-decoration: none;
 }
 
 /* Hover effect for cards */
 .card-link .card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  color:white;
+  color: white;
 }
 
 .card-link:hover .card {
   transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
-  color:black;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  color: black;
 }
 
 /* Optional: pointer cursor for links */
 .card-link {
   cursor: pointer;
 }
-label{
-    display:flex;
-    justify-content:center;
+label {
+  display: flex;
+  justify-content: center;
+}
+.card,
+.btn,
+.form-range,
+footer {
+  border-radius: 0.5rem;
+}
+
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+footer h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  border-radius: 0 0 2rem 2rem;
+}
+.card-img-top {
+  height: 180px;
+  object-fit: contain;
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+.card-title {
+  transition: color 0.2s ease;
 }
