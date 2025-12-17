@@ -9,3 +9,11 @@
   background-color: #007bff;
   color:white;
 }
+.card-header {
+  letter-spacing: 0.5px;
+}
+
+.list-group-item {
+  display: flex;
+  gap: 0.5rem;
+justify-content: center;}
