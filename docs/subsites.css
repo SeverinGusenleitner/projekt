@@ -17,3 +17,17 @@
   display: flex;
   gap: 0.5rem;
 justify-content: center;}
+svg {
+  display: block;
+  margin: 0 auto;
+}
+.bar {
+  fill: #007bff;
+  transition: fill 0.3s, transform 0.2s;
+}
+
+.bar:hover {
+  fill: darkblue;          /* Change color */
+  transform: scaleY(1.05);  /* Slightly enlarge */
+  cursor: pointer;         /* Show pointer on hover */
+}
