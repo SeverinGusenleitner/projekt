@@ -27,7 +27,7 @@ svg {
 }
 
 .bar:hover {
-  fill: darkblue;          /* Change color */
-  transform: scaleY(1.05);  /* Slightly enlarge */
-  cursor: pointer;         /* Show pointer on hover */
+  fill: darkblue;          
+  transform: translateY(5px);  
+  cursor: pointer;         
 }

@@ -1,5 +1,27 @@
 const svg = document.getElementById("airlines-chart");
+createLine();
+function createLine(){
+    const line = document.createElementNS("http://www.w3.org/2000/svg","line");
+    line.setAttribute("x1", "0");
+    line.setAttribute("y1", "310");
+    line.setAttribute("x2","400");
+    line.setAttribute("y2", "310");
+    line.setAttribute("stroke","black");
+    line.setAttribute("stroke-width","2");
+    svg.appendChild(line);
 
+    for(let i = 0; i<4; i++){
+      const line = document.createElementNS("http://www.w3.org/2000/svg","line");
+      line.setAttribute("x1", `${i*133+1}`);
+      line.setAttribute("x2", `${i*133+1}`);
+      line.setAttribute("y1", `305`);
+      line.setAttribute("y2", `315`);
+          line.setAttribute("stroke","black");
+    line.setAttribute("stroke-width","2");
+      svg.appendChild(line);
+
+    }
+}
 function createBar({ y, width, label }) {
   const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
   rect.setAttribute("x", "0");
@@ -26,10 +48,12 @@ function createBar({ y, width, label }) {
     tooltip.setAttribute("visibility", "hidden");
   });
 }
-const bars = [
+const airlineBars = [
   { y: 25,  width: 250, label: "Cost" },
-  { y: 100, width: 380, label: "Speed" }
+  { y: 100, width: 380, label: "Speed"},
+  { y:175,  width:390,  label: "Comfort"},
+  { y:250,  width:390,   label: "Environmental Impact"}
 ];
-for(const bar of bars){
+for(const bar of airlineBars){
   createBar(bar);
 }
