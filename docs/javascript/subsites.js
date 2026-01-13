@@ -26,3 +26,10 @@ function createBar({ y, width, label }) {
     tooltip.setAttribute("visibility", "hidden");
   });
 }
+const bars = [
+  { y: 25,  width: 250, label: "Cost" },
+  { y: 100, width: 380, label: "Speed" }
+];
+for(const bar of bars){
+  createBar(bar);
+}
