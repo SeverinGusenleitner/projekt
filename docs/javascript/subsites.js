@@ -22,7 +22,7 @@ function createLine(svg) {
     line.setAttribute("y2", `315`);
     line.setAttribute("stroke", "black");
     line.setAttribute("stroke-width", "2");
-    airlineChart.appendChild(line);
+    svg.appendChild(line);
   }
 }
 
@@ -87,22 +87,22 @@ createLine(airlineChart);
 for (const bar of bikeBars) {
   createBar(bar);
 }
-createLine(bikeBars);
+createLine(bikeChart);
 
 
 for (const bar of carBars) {
   createBar(bar);
 }
-createLine(carBars);
+createLine(carChart);
 
 
 for (const bar of trainBars) {
   createBar(bar);
 }
-createLine(trainBars);
+createLine(trainChart);
 
 
 for (const bar of walkBars) {
   createBar(bar);
 }
-createLine(walkBars);
+createLine(walkChart);
