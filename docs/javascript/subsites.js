@@ -77,32 +77,37 @@ const walkBars = [
   { y: 250, width: 400, label: "Eco Friendly", svg:walkChart },
 ];
 
-// create all of the charts
-for (const bar of airlineBars) {
-  createBar(bar);
+if (airlineChart) {
+  for (const bar of airlineBars) {
+    createBar(bar);
+  }
+  createLine(airlineChart);
 }
-createLine(airlineChart);
 
-
-for (const bar of bikeBars) {
-  createBar(bar);
+if (bikeChart) {
+  for (const bar of bikeBars) {
+    createBar(bar);
+  }
+  createLine(bikeChart);
 }
-createLine(bikeChart);
 
-
-for (const bar of carBars) {
-  createBar(bar);
+if (carChart) {
+  for (const bar of carBars) {
+    createBar(bar);
+  }
+  createLine(carChart);
 }
-createLine(carChart);
 
-
-for (const bar of trainBars) {
-  createBar(bar);
+if (trainChart) {
+  for (const bar of trainBars) {
+    createBar(bar);
+  }
+  createLine(trainChart);
 }
-createLine(trainChart);
 
-
-for (const bar of walkBars) {
-  createBar(bar);
+if (walkChart) {
+  for (const bar of walkBars) {
+    createBar(bar);
+  }
+  createLine(walkChart);
 }
-createLine(walkChart);
