@@ -26,5 +26,6 @@ svg {
   transition: fill 0.3s, transform 0.2s;
 }
 svg {
-  vertical-align: text-bottom;
+  width:510px;
+  height:350px;
 }
