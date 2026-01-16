@@ -45,72 +45,6 @@ function createBar({ y, width, label, svg}) {
   text.textContent = label;
   svg.appendChild(text);
 }
-// const airlineBars = [
-//   { y: 25, width: 160, label: "Cost", svg: airlineChart},
-//   { y: 100, width: 360, label: "Speed", svg: airlineChart},
-//   { y: 175, width: 240, label: "Comfort", svg: airlineChart },
-//   { y: 250, width: 120, label: "Eco Friendly", svg:airlineChart },
-// ];
-// const bikeBars = [
-//   { y: 25, width: 60, label: "Cost" , svg: bikeChart},        
-//   { y: 100, width: 120, label: "Speed", svg: bikeChart },
-//   { y: 175, width: 150, label: "Comfort", svg: bikeChart },
-//   { y: 250, width: 390, label: "Eco Friendly", svg: bikeChart },
-// ];
-// const carBars = [
-//   { y: 25, width: 300, label: "Cost", svg: carChart },       
-//   { y: 100, width: 260, label: "Speed", svg: carChart },
-//   { y: 175, width: 280, label: "Comfort", svg: carChart },
-//   { y: 250, width: 150, label: "Eco Friendly", svg: carChart },
-// ];
-// const trainBars = [
-//   { y: 25, width: 200, label: "Cost", svg: trainChart },       
-//   { y: 100, width: 300, label: "Speed",svg: trainChart },
-//   { y: 175, width: 300, label: "Comfort",svg: trainChart },
-//   { y: 250, width: 320, label: "Eco Friendly",svg: trainChart },
-// ];
-// const walkBars = [
-//   { y: 25, width: 20, label: "Cost", svg:walkChart },        
-//   { y: 100, width: 60, label: "Speed", svg:walkChart },
-//   { y: 175, width: 200, label: "Comfort", svg:walkChart },
-//   { y: 250, width: 400, label: "Eco Friendly", svg:walkChart },
-// ];
-
-
-// if (airlineChart) {
-//   for (const bar of airlineBars) {
-//     createBar(bar);
-//   }
-//   createLine(airlineChart);
-// }
-
-// if (bikeChart) {
-//   for (const bar of bikeBars) {
-//     createBar(bar);
-//   }
-//   createLine(bikeChart);
-// }
-
-// if (carChart) {
-//   for (const bar of carBars) {
-//     createBar(bar);
-//   }
-//   createLine(carChart);
-// }
-
-// if (trainChart) {
-//   for (const bar of trainBars) {
-//     createBar(bar);
-//   }
-//   createLine(trainChart);
-// }
-
-// if (walkChart) {
-//   for (const bar of walkBars) {
-//     createBar(bar);
-//   }
-//   createLine(walkChart);
-// }
 
 const allBars = [
   // airplane
@@ -155,7 +89,7 @@ const allBars = [
 ];
 for(let diagramm = 0; diagramm<allBars.length;diagramm++){
   const svg = allBars[diagramm][0].svg;
-  
+
     if (!svg) continue;
 
   for(let bar = 0; bar<allBars[diagramm].length;bar++){
