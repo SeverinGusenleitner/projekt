@@ -1,31 +1,28 @@
 .card.shadow-sm.p-3.text-decoration-none {
-  transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+  transition: transform 0.1s ease, box-shadow 0.1s ease,
+    background-color 0.1s ease;
   cursor: pointer;
 }
-
 .card.shadow-sm.p-3.text-decoration-none:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background-color: #007bff;
-  color:white;
+  color: white;
 }
 .card-header {
   letter-spacing: 0.5px;
 }
-
 .list-group-item {
   display: flex;
   gap: 0.5rem;
-justify-content: center;}
+  justify-content: center;
+}
 svg {
   display: block;
   margin: 0 auto;
+  width: 510px;
+  height: 350px;
 }
 .bar {
   fill: #007bff;
-  transition: fill 0.3s, transform 0.2s;
-}
-svg {
-  width:510px;
-  height:350px;
 }
