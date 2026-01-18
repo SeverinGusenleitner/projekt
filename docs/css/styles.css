@@ -1,47 +1,13 @@
-.card-link {
-  display: block;
-  width: 300px; /* fixed width */
-  max-width: 100%; /* responsive: won’t exceed container */
-  text-decoration: none;
-}
-.card-link .card {
+.card {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
-  color: white;
 }
-.card-link:hover .card {
+
+.card:hover {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
-  color: black;
 }
-.card-link {
-  cursor: pointer;
-}
-label {
-  display: flex;
-  justify-content: center;
-}
-.card,
-.btn,
-.form-range,
-footer {
-  border-radius: 0.5rem;
-}
-.btn-primary:hover {
-  transform: translateY(-2px);
-}
-footer h3 {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-}
-footer p {
-  color: #ccc;
-}
+
 .card-img-top {
   height: 180px;
   object-fit: contain;
-  padding: 1.5rem;
-  background-color: #ffffff;
-}
-.card-title {
-  transition: color 0.2s ease;
 }
