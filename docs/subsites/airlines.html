@@ -10,19 +10,20 @@
     <!-- Custom CSS -->
     <link href="../css/subsites.css" rel="stylesheet" />
   </head>
+
   <body class="bg-light">
-    <!-- Title -->
+    <!-- Hero Section -->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="fw-bold">Flying by Airplane</h1>
+        <p class="lead">Fast, global & efficient travel</p>
+      </div>
+    </div>
+
     <!-- Sticky Navigation -->
     <div
-      class="container mb-5"
-      style="
-        position: sticky;
-        top: 0;
-        z-index: 1020;
-        background-color: #f8f9fa;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-      "
+      class="container mb-5 sticky-top"
+      style="z-index: 1020; background-color: #f8f9fa; padding: 1rem 0"
     >
       <div class="d-flex justify-content-center flex-wrap gap-3">
         <a
@@ -75,10 +76,8 @@
       </div>
     </div>
 
-    <div class="container text-center my-5">
-      <h1 class="fw-bold">Flying by Airplane</h1>
-    </div>
     <svg id="airlines-chart"></svg>
+
     <div class="container">
       <!-- Pros & Cons -->
       <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
@@ -89,14 +88,13 @@
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">⚡ Very fast over long distances</li>
-              <li class="list-group-item">
-                🌍 Convenient for international travel
-              </li>
+              <li class="list-group-item">🌍 Convenient for international travel</li>
               <li class="list-group-item">🌍 Global connectivity</li>
               <li class="list-group-item">🔒 Statistically very safe</li>
             </ul>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm h-100">
             <div class="card-header text-center fw-bold bg-danger text-white">
@@ -115,16 +113,11 @@
       <!-- When It’s Worth Flying -->
       <div class="card shadow-sm p-4 mb-5">
         <h2 class="fw-bold">When It’s Worth Flying</h2>
-        <p>
-          Airplanes are most worth it for medium to long distances, typically:
-        </p>
+        <p>Airplanes are most worth it for medium to long distances:</p>
         <ul>
-          <li>International travel (crossing oceans or continents)</li>
-          <li>
-            Trips over 500–600 km (~300–400 miles), where driving or train
-            travel would take many hours
-          </li>
-          <li>Time-sensitive travel, like business trips or emergencies</li>
+          <li>International travel</li>
+          <li>Trips over 500–600 km</li>
+          <li>Time-sensitive travel</li>
         </ul>
       </div>
 
@@ -136,11 +129,12 @@
             <a
               href="https://www.austrian.com"
               target="_blank"
-              class="card text-decoration-none h-100 shadow-sm text-center p-3 card-selector"
+              class="card text-decoration-none h-100 shadow-sm text-center p-3"
             >
               ✈️ Austrian Airlines<br /><span>Vienna (VIE)</span>
             </a>
           </div>
+
           <div class="col">
             <a
               href="https://www.lufthansa.com"
@@ -150,6 +144,7 @@
               ✈️ Lufthansa<br /><span>Munich (MUC)</span>
             </a>
           </div>
+
           <div class="col">
             <a
               href="https://www.ryanair.com"
@@ -159,6 +154,7 @@
               ✈️ Ryanair<br /><span>Linz (LNZ)</span>
             </a>
           </div>
+
           <div class="col">
             <a
               href="https://www.wizzair.com"
@@ -168,6 +164,7 @@
               ✈️ Wizz Air<br /><span>Vienna / Nearby</span>
             </a>
           </div>
+
           <div class="col">
             <a
               href="https://www.swiss.com"
@@ -180,6 +177,7 @@
         </div>
       </div>
     </div>
+
     <script src="../javascript/subsites.js"></script>
   </body>
 </html>
