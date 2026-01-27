@@ -19,8 +19,9 @@
 .hero-image {
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 
-  position: relative;
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: center;
