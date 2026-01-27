@@ -15,3 +15,37 @@
 .controls{
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
+
+.hero-image {
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overlay für bessere Lesbarkeit */
+.hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text über dem Bild */
+.hero-text {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+}
