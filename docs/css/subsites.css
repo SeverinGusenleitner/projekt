@@ -28,7 +28,6 @@ svg {
 }
 /* ===== Hero Image ===== */
 .hero-image {
-  background-image: url("../assets/background/Plane_background.jpg");
   background-size: cover;
   background-position: center;
   height: 60vh;
